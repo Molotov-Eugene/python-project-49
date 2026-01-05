@@ -1,9 +1,8 @@
-from brain_games.scripts.welcome_user import welcome_user
+from brain_games.cli import welcome_user
 
 
 def main():
-    name = welcome_user()
-    print(f'Hello, {name}!')
+    welcome_user()
 
 
 if __name__ == "__main__":
